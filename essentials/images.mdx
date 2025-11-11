@@ -19,15 +19,11 @@ The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets y
 ![title](/path/image.jpg)
 ```
 
-## Markdown
-
-![title](/images/checks-passed.png)
-
-## HTML
-
-\<img height="200" src="/images/checks-passed.png" /\>
-
 Note that the image file size must be less than 5MB. Otherwise, we recommend hosting on a service like [Cloudinary](https://cloudinary.com/) or [S3](https://aws.amazon.com/s3/). You can then use that URL and embed.
+
+```md
+[title](/images/lagkassa_mock.png)
+```
 
 ### Using embeds
 
@@ -36,6 +32,8 @@ To get more customizability with images, you can also use [embeds](/writing-cont
 ```html
 <img height="200" src="/path/image.jpg" />
 ```
+
+\<img height="200" src="/[path/image.jpg](https://www.sportadmin.se/wp-content/uploads/2025/10/Fritidskortet.png)" /\>
 
 ## Embeds and HTML elements
 
